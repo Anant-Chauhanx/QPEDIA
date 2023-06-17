@@ -116,3 +116,61 @@ background-image: url(images/question.home.jpg);
     transform: translateY(-10px);
 }
 
+@media (max-width: 768px) {
+
+    .card {
+        width: 130px;
+        height: 160px;
+    }
+
+    button {
+        width: 140px;
+    }
+
+    h1 {
+        font-size: 60px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .row {
+        padding-top: 50px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        padding-top: 10px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+}
+
