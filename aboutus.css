@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-us {
+    max-width: 1211px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
