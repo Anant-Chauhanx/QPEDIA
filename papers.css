@@ -50,11 +50,16 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .col {
-    width: 100px;
-    display: inline-block;
-    padding-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
   }
-  
+
+  .card {
+    width: 110px;
+    height: 140px;
+    margin: 0;
+  }
 }
+
