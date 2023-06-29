@@ -9,7 +9,7 @@ Previous Question Papers: Qpedia provides access to a wide range of previous que
 # PROJECT SCREENSHOT
 ![Qpedia live-Projectss](https://github.com/Anant-Chauhanx/QPEDIA/assets/133632782/8ce6dcb3-5eea-4827-b0e0-5b76c4079190)
 
-# Contribution
+# CONTRIBUTION
 Qpedia encourages everyone to contribute their own course notes and question papers to benefit the wider community.
 
 
