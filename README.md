@@ -6,6 +6,11 @@ Course Notes: Qpedia offers an extensive collection of course notes across vario
 
 Previous Question Papers: Qpedia provides access to a wide range of previous question papers from different universities and colleges. These papers serve as valuable resources for exam preparation, allowing students to familiarize themselves with the question patterns and assess their knowledge.
 
-Contribution: Qpedia encourages students to contribute their own course notes and question papers to benefit the wider community.
+# PROJECT SCREENSHOT
+![Qpedia live-Projectss](https://github.com/Anant-Chauhanx/QPEDIA/assets/133632782/8ce6dcb3-5eea-4827-b0e0-5b76c4079190)
+
+Contribution: Qpedia encourages everyone to contribute their own course notes and question papers to benefit the wider community.
+
+
 
 
