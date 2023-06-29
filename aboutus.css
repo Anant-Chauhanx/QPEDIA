@@ -38,3 +38,12 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+a {
+    color: #7fadf5;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: lightblue;
+}
