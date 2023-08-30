@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Combination</title>
+    <link rel="stylesheet" type="text/css" href="/css/allpapers.css">
+</head>
+
+<body>
+
+    <div class="image-container">
+        <img src="/images/lc-selectcombination2.webp" alt="3D illustration of students holding books"
+            class="left-image">
+    </div>
+
+    <div class="cards-heading">
+        <h2>Select For Instant Access!</h2>
+        <p>(Select your desired combination below to access the corresponding question papers instantly.)</p>
+    </div>
+
+    <form>
+        <img src="/images/vtu-logo.jpg" alt="VTU LOGO" class="uni-logo">
+
+        <label for="subject">
+            <h4>Subject:</h4>
+        </label>
+        <select id="subject" name="subject">
+            <option value="Select">Select</option>
+            <option value="Engineering Mathematics-I">Engineering Mathematics-I</option>
+            <option value="Engineering Mathematics-II">Engineering Mathematics-II</option>
+            <option value="Engineering Physics">Engineering Physics</option>
+            <option value="Engineering Chemistry">Engineering Chemistry</option>
+            <option value="Electronics Engineering">Electronics Engineering</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+            <option value="Programming for problem solving">Programming for problem solving</option>
+            <option value="Softskill">Softskill</option>
+            <option value="Environment and Ecology">Environment and Ecology</option>
+        </select>
+
+        <label for="year">
+            <h4>Year:</h4>
+        </label>
+        <select id="year" name="year">
+            <option value="select">Select</option>
+            <option value="2021-2022">2021-2022</option>
+            <option value="2020-2021">2020-2021</option>
+        </select>
+
+        <label for="semester">
+            <h4>Semester:</h4>
+        </label>
+        <select id="semester" name="semester">
+            <option value="select">Select</option>
+            <option value="First Semester">First Semester</option>
+            <option value="Second Semester">Second Semester</option>
+        </select>
+
+        <button type="button" onclick="generateQuestionPaper()">Submit</button>
+    </form>
+
+</body>
+
+</html>
