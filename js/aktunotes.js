@@ -84,8 +84,7 @@ function generateQuestionPaper() {
     else if (subject === "Engineering Chemistry") {
         if (year === "2022-2023") {
             if (Unit === "Unit 1") {
-                window.location.href = "/html/notfound.html";
-                return;
+                pdfPath = "/PDFS/Chemistry-unit1.pdf";
             } else if (Unit === "Unit 2") {
                 window.location.href = "/html/notfound.html";
                 return;
