@@ -92,8 +92,7 @@ function generateQuestionPaper() {
             } else if (Unit === "Unit 3") {
                 pdfPath = "/PDFS/Chemistry-unit3.pdf";
             } else if (Unit === "Unit 4") {
-                window.location.href = "/html/notfound.html";
-                return;
+                pdfPath = "/PDFS/Chemistry-unit4.pdf";
             } else if (Unit === "Unit 5") {
                 window.location.href = "/html/notfound.html";
                 return;
