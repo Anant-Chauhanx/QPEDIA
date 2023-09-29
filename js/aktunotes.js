@@ -5,7 +5,7 @@ function generateQuestionPaper() {
     var pdfPath;
 
     if (subject === "Engineering Mathematics-I") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 window.location.href = "/html/notfound.html";
                 return;
@@ -32,7 +32,7 @@ function generateQuestionPaper() {
     }
 
     else if (subject === "Engineering Mathematics-II") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 window.location.href = "/html/notfound.html";
                 return;
@@ -58,7 +58,7 @@ function generateQuestionPaper() {
     }
 
     else if (subject === "Engineering Physics") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 window.location.href = "/html/notfound.html";
                 return;
@@ -82,7 +82,7 @@ function generateQuestionPaper() {
     }
 
     else if (subject === "Engineering Chemistry") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 pdfPath = "/PDFS/Chemistry-unit1.pdf";
             } else if (Unit === "Unit 2") {
@@ -105,7 +105,7 @@ function generateQuestionPaper() {
     }
 
     else if (subject === "Electronics Engineering") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 window.location.href = "/html/notfound.html";
                 return;
@@ -130,7 +130,7 @@ function generateQuestionPaper() {
     }
 
     else if (subject === "Electrical Engineering") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 window.location.href = "/html/notfound.html";
                 return;
@@ -153,7 +153,7 @@ function generateQuestionPaper() {
     }
 
     else if (subject === "Mechanical Engineering") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 window.location.href = "/html/notfound.html";
                 return;
@@ -175,7 +175,7 @@ function generateQuestionPaper() {
     }
 
     else if (subject === "Programming for problem solving") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 pdfPath = "/PDFS/Pps-unit1.pdf";
             } else if (Unit === "Unit 2") {
@@ -195,7 +195,7 @@ function generateQuestionPaper() {
     }
 
     else if (subject === "Softskill") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 pdfPath = "/PDFS/Softskill-unit1.pdf";
             } else if (Unit === "Unit 2") {
@@ -216,7 +216,7 @@ function generateQuestionPaper() {
     }
 
     else if (subject === "Environment and Ecology") {
-        if (year === "2022-2023") {
+        if (year === "2023-2024") {
             if (Unit === "Unit 1") {
                 pdfPath = "/PDFS/Evs-unit1.pdf";
             } else if (Unit === "Unit 2") {
@@ -233,6 +233,31 @@ function generateQuestionPaper() {
             } else if (Unit === "Important Questions") {
                 window.location.href = "/html/notfound.html";
                 return;
+            }
+        }
+    }
+
+    else if (subject === "Cyber Security") {
+        if (year === "2023-2024") {
+            if (Unit === "Unit 1") {
+                pdfPath = "/PDFS/Cs-unit1.pdf";
+            } else if (Unit === "Unit 2") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Unit 3") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Unit 4") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Unit 5") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Lab File") {
+                window.location.href = "/html/notfound.html"
+                return;
+            } else if (Unit === "Important Questions") {
+                pdfPath = "/PDFS/Maths1-importantquestions.pdf";
             }
         }
     }
