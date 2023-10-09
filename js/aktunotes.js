@@ -242,8 +242,31 @@ function generateQuestionPaper() {
             if (Unit === "Unit 1") {
                 pdfPath = "/PDFS/Cs-unit1.pdf";
             } else if (Unit === "Unit 2") {
+                 pdfPath = "/PDFS/Cs-unit2.pdf";
+            } else if (Unit === "Unit 3") {
                 window.location.href = "/html/notfound.html";
                 return;
+            } else if (Unit === "Unit 4") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Unit 5") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Lab File") {
+                window.location.href = "/html/notfound.html"
+                return;
+            } else if (Unit === "Important Questions") {
+                pdfPath = "/PDFS/Maths1-importantquestions.pdf";
+            }
+        }
+    }
+
+     else if (subject === "COA") {
+        if (year === "2023-2024") {
+            if (Unit === "Unit 1") {
+                pdfPath = "/PDFS/COA-unit1.pdf";
+            } else if (Unit === "Unit 2") {
+                 pdfPath = "/PDFS/COA-unit2.pdf";
             } else if (Unit === "Unit 3") {
                 window.location.href = "/html/notfound.html";
                 return;
