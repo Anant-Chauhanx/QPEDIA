@@ -256,7 +256,8 @@ function generateQuestionPaper() {
                 window.location.href = "/html/notfound.html"
                 return;
             } else if (Unit === "Important Questions") {
-                pdfPath = "/PDFS/Maths1-importantquestions.pdf";
+                window.location.href = "/html/notfound.html";
+                return;
             }
         }
     }
@@ -280,7 +281,33 @@ function generateQuestionPaper() {
                 window.location.href = "/html/notfound.html"
                 return;
             } else if (Unit === "Important Questions") {
-                pdfPath = "/PDFS/Maths1-importantquestions.pdf";
+                window.location.href = "/html/notfound.html";
+                return;
+            }
+        }
+    }
+
+    else if (subject === "DSTL") {
+        if (year === "2023-2024") {
+            if (Unit === "Unit 1") {
+                pdfPath = "/PDFS/DSTL-unit1.pdf";
+            } else if (Unit === "Unit 2") {
+                 pdfPath = "/PDFS/DSTL-unit2.pdf";
+            } else if (Unit === "Unit 3") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Unit 4") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Unit 5") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Lab File") {
+                window.location.href = "/html/notfound.html"
+                return;
+            } else if (Unit === "Important Questions") {
+                window.location.href = "/html/notfound.html";
+                return;
             }
         }
     }
