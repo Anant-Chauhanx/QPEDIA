@@ -312,6 +312,32 @@ function generateQuestionPaper() {
         }
     }
 
+    else if (subject === "Data Structure") {
+        if (year === "2023-2024") {
+            if (Unit === "Unit 1") {
+                pdfPath = "/PDFS/DS-unit1.pdf";
+            } else if (Unit === "Unit 2") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Unit 3") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Unit 4") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Unit 5") {
+                window.location.href = "/html/notfound.html";
+                return;
+            } else if (Unit === "Lab File") {
+                window.location.href = "/html/notfound.html"
+                return;
+            } else if (Unit === "Important Questions") {
+                window.location.href = "/html/notfound.html";
+                return;
+            }
+        }
+    }
+
     var newTab = window.open(pdfPath, '_blank');
     newTab.focus();
 }
