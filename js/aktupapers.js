@@ -28,8 +28,7 @@ function generateQuestionPaper() {
         window.location.href = "/html/notfound.html";
         return;
       } else if (semester === "Second Semester") {
-        window.location.href = "/html/notfound.html";
-        return;
+        pdfPath = "/PDFS/Maths2-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
@@ -46,8 +45,7 @@ function generateQuestionPaper() {
       if (semester === "First Semester") {
         pdfPath = "/PDFS/Physics-sem1-22-23.pdf";
       } else if (semester === "Second Semester") {
-        window.location.href = "/html/notfound.html";
-        return;
+        pdfPath = "/PDFS/Physics-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
@@ -63,8 +61,7 @@ function generateQuestionPaper() {
       if (semester === "First Semester") {
         pdfPath = "/PDFS/Chemistry-sem1-22-23.pdf";
       } else if (semester === "Second Semester") {
-        window.location.href = "/html/notfound.html";
-        return;
+        pdfPath = "/PDFS/Chemistry-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
@@ -80,8 +77,7 @@ function generateQuestionPaper() {
       if (semester === "First Semester") {
         pdfPath = "/PDFS/Electronics-sem1-22-23.pdf";
       } else if (semester === "Second Semester") {
-        window.location.href = "/html/notfound.html";
-        return;
+        pdfPath = "/PDFS/Electronics-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
@@ -97,8 +93,7 @@ function generateQuestionPaper() {
       if (semester === "First Semester") {
         pdfPath = "/PDFS/Electrical-sem1-22-23.pdf";
       } else if (semester === "Second Semester") {
-        window.location.href = "/html/notfound.html";
-        return;
+        pdfPath = "/PDFS/Electrical-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
@@ -114,8 +109,7 @@ function generateQuestionPaper() {
       if (semester === "First Semester") {
         pdfPath = "/PDFS/Mechanical-sem1-22-23.pdf";
       } else if (semester === "Second Semester") {
-        window.location.href = "/html/notfound.html";
-        return;
+        pdfPath = "/PDFS/Mechanical-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
@@ -131,8 +125,7 @@ function generateQuestionPaper() {
       if (semester === "First Semester") {
         pdfPath = "/PDFS/Pps-sem1-22-23.pdf";
       } else if (semester === "Second Semester") {
-        window.location.href = "/html/notfound.html";
-        return;
+        pdfPath = "/PDFS/Pps-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
@@ -148,8 +141,7 @@ function generateQuestionPaper() {
       if (semester === "First Semester") {
         pdfPath = "/PDFS/Softskill-sem1-22-23.pdf";
       } else if (semester === "Second Semester") {
-        window.location.href = "/html/notfound.html";
-        return;
+        pdfPath = "/PDFS/Softskill-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
@@ -165,8 +157,7 @@ function generateQuestionPaper() {
       if (semester === "First Semester") {
         pdfPath = "/PDFS/Evs-sem1-22-23.pdf";
       } else if (semester === "Second Semester") {
-        window.location.href = "/html/notfound.html";
-        return;
+        pdfPath = "/PDFS/Evs-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
