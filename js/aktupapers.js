@@ -141,7 +141,7 @@ function generateQuestionPaper() {
       if (semester === "First Semester") {
         pdfPath = "/PDFS/Softskill-sem1-22-23.pdf";
       } else if (semester === "Second Semester") {
-        pdfPath = "/PDFS/Softskill-sem2-22-23.pdf";
+        pdfPath = "/PDFS/Softskills-sem2-22-23.pdf";
       }
     } else if (year === "2021-2022") {
       if (semester === "First Semester") {
