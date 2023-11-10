@@ -7,6 +7,39 @@
   <title>Choose Combination</title>
   <link rel="stylesheet" type="text/css" href="/css/allnotes.css">
   <script src="/js/aktunotes.js"></script>
+  <script>
+    function updateUnitOptions() {
+      var subject = document.getElementById("subject").value;
+      var unitDropdown = document.getElementById("Unit");
+
+      var unitOptions = {
+        "Select": ["Select"],
+        "Engineering Mathematics-I": ["Select", "Important Questions"],
+        "Engineering Mathematics-II": ["Select", "Important Questions"],
+        "Engineering Physics": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Unit 5", "Lab File", "Important Questions"],
+        "Engineering Chemistry": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Unit 5", "Lab File", "Important Questions"],
+        "Electronics Engineering": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Unit 5", "Lab File", "Important Questions"],
+        "Electrical Engineering": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Unit 5", "Lab File", "Important Questions"],
+        "Mechanical Engineering": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Unit 5", "Important Questions"],
+        "Programming for problem solving": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Unit 5", "Lab File", "Important Questions"],
+        "Softskill": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Unit 5", "Lab File", "Important Questions"],
+        "COA": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Lab File", "Important Questions"]
+        "Data Structure": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Lab File", "DS Lab (Code Tantra)", "Important Questions"]
+        "DSTL": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Important Questions"]
+        "Cyber Security": ["Select", "Unit 1", "Unit 2", "Unit 3", "Unit 4", "Important Questions"]
+      };
+
+      unitDropdown.innerHTML = "";
+
+      var options = unitOptions[subject] || [];
+      for (var i = 0; i < options.length; i++) {
+        var option = document.createElement("option");
+        option.value = options[i];
+        option.text = options[i];
+        unitDropdown.add(option);
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -40,7 +73,6 @@
       <option value="Environment and Ecology">Environment and Ecology</option>
       <option value="COA">COA</option>
       <option value="Data Structure">Data Structure</option>
-      <option value="Data Structure Lab">Data Structure Lab (Code Tantra)</option>
       <option value="DSTL">DSTL</option>
       <option value="Cyber Security">Cyber Security</option>
     </select>
@@ -64,6 +96,7 @@
       <option value="Unit 4">Unit 4</option>
       <option value="Unit 5">Unit 5</option>
       <option value="Lab File">Lab File</option>
+      <option value="DS Lab (Code Tantra)">DS Lab (Code Tantra)</option>
       <option value="Important Questions">Important Questions</option>
     </select>
 
