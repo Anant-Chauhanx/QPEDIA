@@ -331,7 +331,7 @@ function generateQuestionPaper() {
             } else if (Unit === "Lab File") {
                 window.location.href = "/html/notfound.html"
                 return;
-            } else if (Unit === "Lab File") {
+            } else if (Unit === "DS Lab (Code Tantra)") {
                 pdfPath = "/PDFS/Ds-lab.pdf";
             } else if (Unit === "Important Questions") {
                 window.location.href = "/html/notfound.html";
