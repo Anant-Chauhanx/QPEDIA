@@ -331,6 +331,8 @@ function generateQuestionPaper() {
             } else if (Unit === "Lab File") {
                 window.location.href = "/html/notfound.html"
                 return;
+            } else if (Unit === "Lab File") {
+                pdfPath = "/PDFS/Ds-lab.pdf";
             } else if (Unit === "Important Questions") {
                 window.location.href = "/html/notfound.html";
                 return;
