@@ -247,8 +247,7 @@ function generateQuestionPaper() {
                 window.location.href = "/html/notfound.html";
                 return;
             } else if (Unit === "Unit 4") {
-                window.location.href = "/html/notfound.html";
-                return;
+                pdfPath = "/PDFS/Cs-unit4.pdf";
             } else if (Unit === "Unit 5") {
                 window.location.href = "/html/notfound.html";
                 return;
