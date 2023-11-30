@@ -319,8 +319,7 @@ function generateQuestionPaper() {
                 window.location.href = "/html/notfound.html";
                 return;
             } else if (Unit === "Unit 3") {
-                window.location.href = "/html/notfound.html";
-                return;
+                pdfPath = "/PDFS/DS-unit3.pdf";
             } else if (Unit === "Unit 4") {
                 window.location.href = "/html/notfound.html";
                 return;
