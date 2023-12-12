@@ -277,8 +277,7 @@ function generateQuestionPaper() {
                 window.location.href = "/html/notfound.html";
                 return;
             } else if (Unit === "Lab File") {
-                window.location.href = "/html/notfound.html"
-                return;
+                pdfPath = "/PDFS/Coa-lab.pdf";
             } else if (Unit === "Important Questions") {
                 window.location.href = "/html/notfound.html";
                 return;
